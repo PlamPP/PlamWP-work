@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
 
-_s
+PlamWP-work
 ===
 
 Hi. I'm a starter theme called `PlamWP-work`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
@@ -24,7 +24,7 @@ Installation
 
 ### Requirements
 
-`_s` requires the following dependencies:
+`PlamWP-work` requires the following dependencies:
 
 - [Node.js](https://nodejs.org/)
 - [Composer](https://getcomposer.org/)
