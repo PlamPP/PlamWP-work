@@ -1,15 +1,15 @@
 /*!
 Theme Name: PlamWP-work
-Theme URI: http://underscores.me/
+Theme URI: http://PlamWP-work.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
-Description: Description
+Description: Hi. I'm a starter theme called PlamWP-work. I'm a theme meant for hacking so don't use me as a Parent Theme.
 Version: 1.0.0
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: PlamWP-work
+Text Domain: plamwp-work
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
@@ -66,7 +66,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
+ html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 }
@@ -966,4 +966,78 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+ /* Plam WP add */
+body {
+    background: #f4f4f4;
+}
+#page {
+	max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-left: 2rem;
+    padding-right: 2rem;
+    background: white;
+}
+.site-branding {
+	padding-top: 0.7rem;
+}
+.site-title {
+	margin-bottom: 0;
+}
+.site-title a {
+	font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.site-description { 
+	margin-top: 0;
+    font-size: .85rem;
+}
+
+.site-title, .site-description {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Menu */
+.menu-main-container {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+.main-navigation ul {
+	justify-content: center;
+}
+.main-navigation li {
+	border-left: 2px solid;
+}
+.main-navigation li:last-child {
+	border-right: 2px solid;
+}
+.main-navigation a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+	color: black;
+}
+.main-navigation a:hover,
+.current-menu-item a {
+	background: black;
+	color: white;
+} 
+/* */ 
+.share {
+	float: right;
+    margin-top: 1.5rem;
+    text-decoration: none;
+	font-weight: bold;
+}
+a.share {
+	padding: 0.3rem 0.8rem;
+}
+a.share:hover {
+	background: black;
+	color: white;
 }
